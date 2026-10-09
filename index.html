@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>张艺腾 · 求职作品集 · 2027届校招</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Microsoft YaHei","PingFang SC",sans-serif; color: #1a1a2e; background: #f4f5f9; }
+  .container { max-width: 1080px; margin: 0 auto; padding: 40px 20px; }
+  .hero { text-align: center; margin-bottom: 28px; }
+  .hero h1 { font-size: 30px; letter-spacing: 2px; }
+  .hero .sub { font-size: 14px; color: #555; margin-top: 8px; }
+  .hero .tags { margin-top: 12px; }
+  .hero .tags span { display: inline-block; background: #fff; border: 1px solid #dbeafe; color: #2563eb; font-size: 12px; padding: 4px 14px; border-radius: 14px; margin: 0 4px; }
+  .stats { display: flex; justify-content: center; gap: 14px; margin: 24px 0 32px; flex-wrap: wrap; }
+  .stat { background: #fff; border-radius: 10px; padding: 14px 26px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+  .stat .num { font-size: 24px; font-weight: 700; color: #2563eb; }
+  .stat .lbl { font-size: 12px; color: #888; margin-top: 2px; }
+  .cat-title { font-size: 17px; font-weight: 700; margin: 26px 0 12px; padding-left: 10px; border-left: 4px solid #2563eb; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  .card { background: #fff; border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(0,0,0,.05); transition: box-shadow .2s; }
+  .card:hover { box-shadow: 0 4px 14px rgba(37,99,235,.12); }
+  .card .head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .card h3 { font-size: 15px; }
+  .card .badge { font-size: 11px; padding: 2px 10px; border-radius: 10px; font-weight: 600; white-space: nowrap; }
+  .badge.blue { background: #dbeafe; color: #2563eb; }
+  .badge.green { background: #d1fae5; color: #059669; }
+  .badge.orange { background: #ffedd5; color: #ea580c; }
+  .card p { font-size: 12.5px; color: #666; line-height: 1.6; margin-bottom: 10px; }
+  .card .tech { font-size: 11px; color: #999; margin-bottom: 10px; }
+  .card a { display: inline-block; font-size: 12px; color: #2563eb; text-decoration: none; border: 1px solid #bfdbfe; border-radius: 6px; padding: 5px 14px; }
+  .card a:hover { background: #2563eb; color: #fff; }
+  .card a.src { color: #666; border-color: #ddd; margin-left: 8px; }
+  .card a.src:hover { background: #666; }
+  .footer { text-align: center; font-size: 12px; color: #999; margin-top: 40px; line-height: 1.8; }
+  .footer b { color: #666; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>张艺腾 · 求职作品集</h1>
+    <div class="sub">郑州西亚斯学院 · 计算机科学与技术 · 2027 届校招 · 求职方向：销售 / 运营 / 管培</div>
+    <div class="tags">
+      <span>全部独立开发</span><span>零依赖部署</span><span>有在线演示</span><span>业务导向</span>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="num">9</div><div class="lbl">独立项目</div></div>
+    <div class="stat"><div class="num">8</div><div class="lbl">在线演示</div></div>
+    <div class="stat"><div class="num">0</div><div class="lbl">第三方框架依赖</div></div>
+  </div>
+
+  <div class="cat-title">数据看板类（原生 JS + SVG，单文件零依赖）</div>
+  <div class="grid">
+    <div class="card">
+      <div class="head"><h3>多平台广告投放数据看板</h3><span class="badge blue">广告方向</span></div>
+      <p>统一多平台投放口径，CTR / CVR / ROI 三档预警，投放复盘从拼表变为看板直读</p>
+      <div class="tech">原生 JS · SVG 图表 · CSV 导出</div>
+      <a href="ad-dashboard/">在线演示</a>
+    </div>
+    <div class="card">
+      <div class="head"><h3>游戏运营数据分析看板</h3><span class="badge blue">游戏运营</span></div>
+      <p>Cohort 留存矩阵、付费四层分层、流失圈选自动关联召回动作建议</p>
+      <div class="tech">原生 JS · SVG 图表 · 90 天演示数据</div>
+      <a href="game-dashboard/">在线演示</a>
+    </div>
+    <div class="card">
+      <div class="head"><h3>个人销售业绩管理系统</h3><span class="badge blue">销售管理</span></div>
+      <p>客户五阶段漏斗可视化，赢单率随阶段推进实时重算，商机预测辅助排期</p>
+      <div class="tech">原生 JS · localStorage 持久化</div>
+      <a href="sales-tracker/">在线演示</a>
+    </div>
+    <div class="card">
+      <div class="head"><h3>连锁门店经营分析看板</h3><span class="badge blue">管培 / 零售</span></div>
+      <p>5 家门店营收→毛利→房租→人力→净利全链路拆解，坪效人效对比，亏损店自动输出改善动作</p>
+      <div class="tech">原生 JS · SVG 图表 · P&amp;L 模型</div>
+      <a href="mt-dashboard/">在线演示</a>
+    </div>
+    <div class="card">
+      <div class="head"><h3>供应链运营分析看板</h3><span class="badge blue">供应链</span></div>
+      <p>SKU 周转 / 缺货率 / ABC 分类 / 供应商准时率多维分析，滞销清仓、缺货补货、切换供应商三类自动诊断</p>
+      <div class="tech">原生 JS · SVG 图表 · 15 SKU 演示集</div>
+      <a href="supply-dashboard/">在线演示</a>
+    </div>
+  </div>
+
+  <div class="cat-title">Python 数据工具类（标准库零依赖）</div>
+  <div class="grid">
+    <div class="card">
+      <div class="head"><h3>电商竞品价格监控系统</h3><span class="badge green">采销电商</span></div>
+      <p>定时采集竞品价格入库，降幅超 5% 红色预警，输出动作导向跟价周报</p>
+      <div class="tech">Python 标准库 · CSV 历史库 · Markdown 报告</div>
+      <a href="price-monitor/">在线演示</a>
+    </div>
+    <div class="card">
+      <div class="head"><h3>商品评论情感分析工具</h3><span class="badge green">采销电商</span></div>
+      <p>词典 + 否定反转 + 加权判定差评，按质量 / 尺码 / 做工等 8 维归集并生成改进建议</p>
+      <div class="tech">Python 标准库 · 情感词典 · 维度归集</div>
+      <a href="review-sentiment/">在线演示</a>
+    </div>
+    <div class="card">
+      <div class="head"><h3>智能补货建议工具</h3><span class="badge green">供应链</span></div>
+      <p>4 周加权移动平均预测日均销量，结合库存 / 在途 / 安全天数输出立即 / 本周 / 暂缓三档补货建议</p>
+      <div class="tech">Python 标准库 · 加权预测 · Markdown+HTML 报告</div>
+      <a href="replenishment-advisor/">在线演示</a>
+    </div>
+  </div>
+
+  <div class="cat-title">全栈系统</div>
+  <div class="grid">
+    <div class="card">
+      <div class="head"><h3>发票管家 · 全流程发票管理系统</h3><span class="badge orange">全栈项目</span></div>
+      <p>邮箱自动采集 → AI 识别字段 → 查重核销 → 一键导出的报销管理闭环，解决会务报销人工翻邮箱痛点</p>
+      <div class="tech">Python FastAPI · 通义千问多模态 · IMAP · SQLite</div>
+      <a href="https://github.com/46bzvs7m64-GIF/invoice-manager">源码仓库</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <b>说明</b>：以上项目均为本人独立开发；演示数据为按真实业务字段结构自建的脱敏数据集，用于验证规则与流程逻辑。<br>
+    联系方式：2295691148@qq.com · 15236293408
+  </div>
+</div>
+</body>
+</html>
