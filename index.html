@@ -3,135 +3,166 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>张艺腾 · 求职作品集 · 2027届校招</title>
+<title>张艺腾 · 项目运营 / 数据分析 作品集 · 2027届校招</title>
+<meta name="description" content="张艺腾（2027届，计算机科学与技术）的项目运营 / 数据分析作品集：校园信息墙、供应链运营分析看板、智能补货建议、发票管家等 12 个可在线打开的独立项目。">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: "Microsoft YaHei","PingFang SC",sans-serif; color: #1a1a2e; background: #f4f5f9; }
   .container { max-width: 1080px; margin: 0 auto; padding: 40px 20px; }
-  .hero { text-align: center; margin-bottom: 28px; }
+  .hero { text-align: center; margin-bottom: 22px; }
   .hero h1 { font-size: 30px; letter-spacing: 2px; }
   .hero .sub { font-size: 14px; color: #555; margin-top: 8px; }
   .hero .tags { margin-top: 12px; }
   .hero .tags span { display: inline-block; background: #fff; border: 1px solid #dbeafe; color: #2563eb; font-size: 12px; padding: 4px 14px; border-radius: 14px; margin: 0 4px; }
-  .stats { display: flex; justify-content: center; gap: 14px; margin: 24px 0 32px; flex-wrap: wrap; }
+  .howto { background: #fff; border: 1px solid #e5e7eb; border-left: 3px solid #2563eb; border-radius: 6px; padding: 12px 16px; font-size: 12.5px; color: #555; line-height: 1.8; margin: 0 0 8px; }
+  .howto b { color: #1a1a2e; }
+  .stats { display: flex; justify-content: center; gap: 14px; margin: 22px 0 26px; flex-wrap: wrap; }
   .stat { background: #fff; border-radius: 10px; padding: 14px 26px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
   .stat .num { font-size: 24px; font-weight: 700; color: #2563eb; }
   .stat .lbl { font-size: 12px; color: #888; margin-top: 2px; }
   .cat-title { font-size: 17px; font-weight: 700; margin: 26px 0 12px; padding-left: 10px; border-left: 4px solid #2563eb; }
+  .cat-title span { display: block; font-size: 12px; font-weight: 400; color: #888; margin-top: 4px; }
   .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
-  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  .grid.solo { grid-template-columns: 1fr; }
+  @media (max-width: 760px) { .grid, .grid.solo { grid-template-columns: 1fr; } }
   .card { background: #fff; border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 3px rgba(0,0,0,.05); transition: box-shadow .2s; }
   .card:hover { box-shadow: 0 4px 14px rgba(37,99,235,.12); }
-  .card .head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+  .card .head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; gap: 10px; }
   .card h3 { font-size: 15px; }
   .card .badge { font-size: 11px; padding: 2px 10px; border-radius: 10px; font-weight: 600; white-space: nowrap; }
   .badge.blue { background: #dbeafe; color: #2563eb; }
   .badge.green { background: #d1fae5; color: #059669; }
   .badge.orange { background: #ffedd5; color: #ea580c; }
-  .card p { font-size: 12.5px; color: #666; line-height: 1.6; margin-bottom: 10px; }
+  .badge.purple { background: #ede9fe; color: #6d28d9; }
+  .card p { font-size: 12.5px; color: #666; line-height: 1.65; margin-bottom: 10px; }
+  .card p b { color: #333; font-weight: 600; }
   .card .tech { font-size: 11px; color: #999; margin-bottom: 10px; }
   .card a { display: inline-block; font-size: 12px; color: #2563eb; text-decoration: none; border: 1px solid #bfdbfe; border-radius: 6px; padding: 5px 14px; }
   .card a:hover { background: #2563eb; color: #fff; }
   .card a.src { color: #666; border-color: #ddd; margin-left: 8px; }
   .card a.src:hover { background: #666; }
-  .footer { text-align: center; font-size: 12px; color: #999; margin-top: 40px; line-height: 1.8; }
+  .footer { text-align: center; font-size: 12px; color: #999; margin-top: 40px; line-height: 1.9; }
   .footer b { color: #666; }
 </style>
 </head>
 <body>
 <div class="container">
   <div class="hero">
-    <h1>张艺腾 · 求职作品集</h1>
-    <div class="sub">郑州西亚斯学院 · 计算机科学与技术 · 2027 届校招 · 求职方向：游戏策划 / 销售 / 运营 / 管培</div>
+    <h1>张艺腾 · 项目运营 / 数据分析 作品集</h1>
+    <div class="sub">郑州西亚斯学院 · 计算机科学与技术 · 2027 届校招 · 求职方向：项目运营 / 数据分析</div>
     <div class="tags">
-      <span>全部独立开发</span><span>零依赖部署</span><span>有在线演示</span><span>业务导向</span>
+      <span>10 个独立项目</span><span>全部可在线打开</span><span>零后端依赖的静态部署</span><span>带业务口径与复盘</span>
     </div>
+  </div>
+
+  <div class="howto">
+    <b>建议看顺序</b>：① <a href="campus-info-wall/" style="color:#2563eb;text-decoration:none">校园信息墙</a>（0→1 做产品 + 埋点漏斗，最能代表运营）→ ② <a href="supply-dashboard/" style="color:#2563eb;text-decoration:none">供应链看板</a>（口径、分级预警、ABC 错配，最能代表分析）→ ③ <a href="invoice-manager/" style="color:#2563eb;text-decoration:none">发票管家</a>（把人工流程拆成系统）。
+    每个项目都写清了「问题 → 我做了什么 → 结果」，不是截图拼贴。
   </div>
 
   <div class="stats">
     <div class="stat"><div class="num">10</div><div class="lbl">独立项目</div></div>
-    <div class="stat"><div class="num">9</div><div class="lbl">在线演示</div></div>
-    <div class="stat"><div class="num">0</div><div class="lbl">第三方框架依赖</div></div>
+    <div class="stat"><div class="num">10</div><div class="lbl">在线演示</div></div>
+    <div class="stat"><div class="num">6</div><div class="lbl">覆盖业务场景</div></div>
   </div>
 
-  <div class="cat-title">游戏战斗原型（独立设计 · 可玩）</div>
+  <div class="cat-title">主推项目（运营 / 数据岗直接相关）</div>
   <div class="grid">
     <div class="card">
-      <div class="head"><h3>试炼回廊 · Canvas 动作肉鸽战斗</h3><span class="badge orange">游戏战斗策划</span></div>
-      <p>自设计的完整肉鸽战斗游戏：Canvas 实时战斗动画（程序化角色绘制、粒子、屏幕震动），前摇后摇帧与体力约束输出节奏，削韧→处决博弈，四类敌人 AI 与三阶段 BOSS，遗物构筑 + 魂加点成长 + 本地存档，伤害公式白盒可调</p>
-      <div class="tech">原生 JS · Canvas 动画引擎 · 行为树 AI · 遗物构筑 · 白盒数值</div>
-      <a href="combat-demo/">在线试玩</a>
+      <div class="head"><h3>校园信息墙 · 失物 / 二手 / 拼单平台</h3><span class="badge orange">项目运营</span></div>
+      <p>校园里的失物、二手、拼单信息散在几十个微信群，翻不到、没沉淀，也没人统计过「到底多少人真的联系上了」。我做了个能发、能搜、能联系、能拼的 H5，并把每一步埋了点：<b>四步漏斗</b>（进入→详情→联系→完成）、<b>12 类事件</b>、<b>?ch= 渠道打标</b>。上线后把「详情→联系」的流失做成可见指标（<b>12.4%</b>），据此把联系方式改成登录可见、给拼单加了进度条。后台含 8 个指标、渠道效果表与 CSV 导出。</p>
+      <div class="tech">原生 JS 单文件 · 学号注册 · 拼单进度 · 埋点漏斗 · 管理员后台 · CSV 导出</div>
+      <a href="campus-info-wall/">在线演示</a><a class="src" href="https://github.com/46bzvs7m64-gif/campus-info-wall">源码</a>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3>供应链运营分析看板</h3><span class="badge blue">数据分析</span></div>
+      <p>60 个 SKU、3 个仓的周度复盘看板。<b>四组口径</b>（周转 / 覆盖 / 缺货 / 滞销）+ 供应商准时率，自动输出 <b>17 条 P0–P2 分级预警</b>，每条带补货量、清仓回款或切换供应商的<b>预计影响</b>并按优先级排序；另附 <b>ABC 销售-库存错配矩阵</b>（A 类欠配 42pp 是缺货主因）与口径/数据来源说明，避免"指标好看但对不上账"。</p>
+      <div class="tech">原生 JS + SVG · 60 SKU · 17 条分级预警 · ABC 错配 · 口径与数据来源</div>
+      <a href="supply-dashboard/">在线演示</a><a class="src" href="https://github.com/46bzvs7m64-gif/supply-dashboard">源码</a>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3>智能补货建议工具</h3><span class="badge blue">数据工具</span></div>
+      <p>用 4 周加权移动平均预测日均销量，结合库存、在途与安全天数，输出「<b>立即补 / 本周补 / 暂缓</b>」三档建议与可直接执行的补货清单，把"要不要补、补多少"从经验判断变成可复核的计算。</p>
+      <div class="tech">Python 标准库 · 加权移动平均 · Markdown + HTML 报告</div>
+      <a href="replenishment-advisor/">在线演示</a>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3>发票管家 · 会务票据全流程系统</h3><span class="badge purple">流程自动化</span></div>
+      <p>会务报销要在邮箱里一张张翻发票、手工登记、再核销。我把这条链拆成系统：<b>邮箱采集 → 多模态识别字段 → 查重核销 → 导出报销单</b>。在线版是<b>空库演示</b>——点「一键采集」只会如实提示未配置邮箱凭据，不造假数据；完整后端见源码。</p>
+      <div class="tech">Python FastAPI · 通义千问多模态 · IMAP 增量采集 · SQLite</div>
+      <a href="invoice-manager/">在线演示（空库）</a><a class="src" href="https://github.com/46bzvs7m64-gif/invoice-manager">源码</a>
     </div>
   </div>
 
-  <div class="cat-title">数据看板类（原生 JS + SVG，单文件零依赖）</div>
+  <div class="cat-title">数据看板（原生 JS + SVG，单文件零依赖）<span>同一套做法：先定口径，再做图，最后给动作</span></div>
   <div class="grid">
     <div class="card">
-      <div class="head"><h3>多平台广告投放数据看板</h3><span class="badge blue">广告方向</span></div>
-      <p>统一多平台投放口径，CTR / CVR / ROI 三档预警，投放复盘从拼表变为看板直读</p>
+      <div class="head"><h3>多平台广告投放数据看板</h3><span class="badge blue">广告投放</span></div>
+      <p>把 4 个平台的投放数据统一到一套口径（曝光→点击→转化→ROI），CTR / CVR / ROI 三档预警，投放复盘从"拼表"变成"看板直读"。</p>
       <div class="tech">原生 JS · SVG 图表 · CSV 导出</div>
       <a href="ad-dashboard/">在线演示</a>
     </div>
     <div class="card">
-      <div class="head"><h3>游戏运营数据分析看板</h3><span class="badge blue">游戏运营</span></div>
-      <p>Cohort 留存矩阵、付费四层分层、流失圈选自动关联召回动作建议</p>
+      <div class="head"><h3>游戏运营数据分析看板</h3><span class="badge blue">用户运营</span></div>
+      <p>Cohort 留存矩阵、付费四层分层、流失玩家圈选并自动关联召回动作建议，把"用户流失了"变成"该找谁、做什么"。</p>
       <div class="tech">原生 JS · SVG 图表 · 90 天演示数据</div>
       <a href="game-dashboard/">在线演示</a>
     </div>
     <div class="card">
       <div class="head"><h3>个人销售业绩管理系统</h3><span class="badge blue">销售管理</span></div>
-      <p>客户五阶段漏斗可视化，赢单率随阶段推进实时重算，商机预测辅助排期</p>
+      <p>客户五阶段漏斗可视化，赢单率随阶段推进实时重算，商机预测辅助排期，避免"月底才发现差一单"。</p>
       <div class="tech">原生 JS · localStorage 持久化</div>
       <a href="sales-tracker/">在线演示</a>
     </div>
     <div class="card">
-      <div class="head"><h3>连锁门店经营分析看板</h3><span class="badge blue">管培 / 零售</span></div>
-      <p>5 家门店营收→毛利→房租→人力→净利全链路拆解，坪效人效对比，亏损店自动输出改善动作</p>
+      <div class="head"><h3>连锁门店经营分析看板</h3><span class="badge blue">零售 / 门店</span></div>
+      <p>5 家门店从营收→毛利→房租→人力→净利的全链路拆解，坪效人效对比，亏损店自动输出改善动作。</p>
       <div class="tech">原生 JS · SVG 图表 · P&amp;L 模型</div>
       <a href="mt-dashboard/">在线演示</a>
     </div>
+  </div>
+
+  <div class="cat-title">分析报告</div>
+  <div class="grid solo">
     <div class="card">
-      <div class="head"><h3>供应链运营分析看板</h3><span class="badge blue">供应链</span></div>
-      <p>SKU 周转 / 缺货率 / ABC 分类 / 供应商准时率多维分析，滞销清仓、缺货补货、切换供应商三类自动诊断</p>
-      <div class="tech">原生 JS · SVG 图表 · 15 SKU 演示集</div>
-      <a href="supply-dashboard/">在线演示</a>
+      <div class="head"><h3>京东 2026 产品 / 采销岗位 JD 分析报告</h3><span class="badge green">求职研究</span></div>
+      <p>抓取 55 条项目运营 / 数据分析类 JD，拆成能力词频、城市与薪资分布、学历与经验门槛，再拿自己的简历逐条对照，得出"我缺哪几项"的结论并改成学习计划。这份报告是我决定先做校园信息墙的原因。</p>
+      <div class="tech">Python 采集 + 词表统计 · HTML 报告 · 可复用到任意岗位</div>
+      <a href="jd-2026/">在线阅读</a>
     </div>
   </div>
 
-  <div class="cat-title">Python 数据工具类（标准库零依赖）</div>
+  <div class="cat-title">Python 数据小工具（标准库零依赖）</div>
   <div class="grid">
     <div class="card">
       <div class="head"><h3>电商竞品价格监控系统</h3><span class="badge green">采销电商</span></div>
-      <p>定时采集竞品价格入库，降幅超 5% 红色预警，输出动作导向跟价周报</p>
+      <p>定时采集竞品价格入库，降幅超 5% 触发红色预警，输出动作导向的跟价周报。</p>
       <div class="tech">Python 标准库 · CSV 历史库 · Markdown 报告</div>
       <a href="price-monitor/">在线演示</a>
     </div>
     <div class="card">
       <div class="head"><h3>商品评论情感分析工具</h3><span class="badge green">采销电商</span></div>
-      <p>词典 + 否定反转 + 加权判定差评，按质量 / 尺码 / 做工等 8 维归集并生成改进建议</p>
+      <p>词典 + 否定反转 + 加权判定差评，按质量 / 尺码 / 做工等 8 个维度归集并生成改进建议。</p>
       <div class="tech">Python 标准库 · 情感词典 · 维度归集</div>
       <a href="review-sentiment/">在线演示</a>
     </div>
-    <div class="card">
-      <div class="head"><h3>智能补货建议工具</h3><span class="badge green">供应链</span></div>
-      <p>4 周加权移动平均预测日均销量，结合库存 / 在途 / 安全天数输出立即 / 本周 / 暂缓三档补货建议</p>
-      <div class="tech">Python 标准库 · 加权预测 · Markdown+HTML 报告</div>
-      <a href="replenishment-advisor/">在线演示</a>
-    </div>
   </div>
 
-  <div class="cat-title">全栈系统</div>
-  <div class="grid">
+  <div class="cat-title">其他（早期探索）</div>
+  <div class="grid solo">
     <div class="card">
-      <div class="head"><h3>发票管家 · 全流程发票管理系统</h3><span class="badge orange">全栈项目</span></div>
-      <p>邮箱自动采集 → AI 识别字段 → 查重核销 → 一键导出的报销管理闭环，解决会务报销人工翻邮箱痛点</p>
-      <div class="tech">Python FastAPI · 通义千问多模态 · IMAP · SQLite</div>
-      <a href="https://github.com/46bzvs7m64-GIF/invoice-manager">源码仓库</a>
+      <div class="head"><h3>试炼回廊 · Canvas 动作肉鸽战斗原型</h3><span class="badge purple">游戏战斗设计</span></div>
+      <p>自设计的可玩战斗原型：前摇后摇帧与体力约束输出节奏，削韧→处决博弈，四类敌人 AI 与三阶段 BOSS，遗物构筑 + 白盒伤害公式。做它练的是"把数值手感拆成可以调的参数"，这套思路后来也用在了看板的阈值设计上。</p>
+      <div class="tech">原生 JS · Canvas 动画 · 行为树 AI · 白盒数值</div>
+      <a href="combat-demo/">在线试玩</a>
     </div>
   </div>
 
   <div class="footer">
-    <b>说明</b>：以上项目均为本人独立开发；演示数据为按真实业务字段结构自建的脱敏数据集，用于验证规则与流程逻辑。<br>
+    <b>说明</b>：以上项目均为本人独立开发与部署。演示数据是按真实业务字段结构自建的脱敏数据集（如供应链 60 个 SKU、校园墙 108 条内容），用于验证规则、口径与流程，不是真实用户数据；发票管家在线版为演示态空库，不会造数。<br>
     联系方式：2295691148@qq.com · 15236293408
   </div>
 </div>
